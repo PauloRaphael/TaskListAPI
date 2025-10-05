@@ -1,0 +1,9 @@
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.csproj.AssemblyReference.cache
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.AssemblyInfoInputs.cache
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.AssemblyInfo.cs
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.csproj.CoreCompileInputs.cache
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Debug\net8.0\TaskListAPI.sourcelink.json
