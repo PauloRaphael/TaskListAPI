@@ -19,8 +19,11 @@ namespace TaskListAPI.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.HasDefaultSchema("lista_tarefas");
+
             // Configurações para PostgreSQL (snake_case)
             modelBuilder.UseIdentityByDefaultColumns();
+
 
             // Configuração para a enum StatusEnum como string no DB
             modelBuilder.Entity<Tarefa>()

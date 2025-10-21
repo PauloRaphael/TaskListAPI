@@ -1,7 +1,7 @@
 using TaskListAPI.Data;
 using TaskListAPI.Repository;
 using Microsoft.EntityFrameworkCore;
-using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Microsoft.EntityFrameworkCore.Design;
 using TaskListAPI.Model.Entities;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,7 +18,7 @@ builder.Services.AddDbContext<TaskListDbContext>(options =>
 );
 
 // 2. Registrar Repositórios
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));  
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 // Repetições para as outras entidades:
