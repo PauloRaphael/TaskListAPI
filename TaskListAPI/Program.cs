@@ -28,12 +28,8 @@ builder.Services.AddScoped<IGenericRepository<LoginSessao>, GenericRepository<Lo
 
 var app = builder.Build();
 
-// Configuração do pipeline HTTP.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
