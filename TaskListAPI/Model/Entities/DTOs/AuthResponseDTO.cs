@@ -1,10 +1,10 @@
-﻿namespace TaskListAPI.Model.DTOs
+﻿// TaskListAPI/Model/DTOs/AuthResponseDTO.cs
+namespace TaskListAPI.Model.DTOs
 {
     public class AuthResponseDTO
     {
-        public string Token { get; set; }
+        public string Token { get; set; } = string.Empty;
         public int UserId { get; set; }
-        public string UserEmail { get; set; }
-        // You can add ExpirationDate if needed
+        public string UserEmail { get; set; } = string.Empty;
     }
 }

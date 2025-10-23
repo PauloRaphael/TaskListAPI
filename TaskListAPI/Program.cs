@@ -1,8 +1,8 @@
 using TaskListAPI.Data;
 using TaskListAPI.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Design;
 using TaskListAPI.Model.Entities;
+using TaskListAPI.Services; // Adicione este using
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +18,7 @@ builder.Services.AddDbContext<TaskListDbContext>(options =>
 );
 
 // 2. Registrar Repositórios
-builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));  
+builder.Services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 // Repetições para as outras entidades:
@@ -26,12 +26,20 @@ builder.Services.AddScoped<IGenericRepository<Categoria>, GenericRepository<Cate
 builder.Services.AddScoped<IGenericRepository<Tarefa>, GenericRepository<Tarefa>>();
 builder.Services.AddScoped<IGenericRepository<LoginSessao>, GenericRepository<LoginSessao>>();
 
+// 3. Registrar o Serviço de Autenticação (Correção para o erro anterior)
+builder.Services.AddScoped<IAuthService, AuthService>();
+
 var app = builder.Build();
 
-app.UseSwagger();
-app.UseSwaggerUI();
+
+    app.UseSwagger();
+    app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
+
+// Adicionar Autenticação e Autorização na ordem correta
+app.UseAuthentication(); // Adicione se estiver implementando autenticação
 app.UseAuthorization();
+
 app.MapControllers();
 app.Run();

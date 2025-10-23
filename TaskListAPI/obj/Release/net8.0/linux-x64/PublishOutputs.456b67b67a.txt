@@ -17,6 +17,10 @@ C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Releas
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.Extensions.Options.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Microsoft.OpenApi.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Npgsql.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Npgsql.EntityFrameworkCore.PostgreSQL.dll
@@ -24,4 +28,5 @@ C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Releas
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\PubTmp\Out\TaskListAPI.deps.json

@@ -1,9 +1,15 @@
-﻿namespace TaskListAPI.Model.DTOs
+﻿// TaskListAPI/Model/DTOs/LoginModel.cs
+using System.ComponentModel.DataAnnotations;
+
+namespace TaskListAPI.Model.DTOs
 {
     public class LoginModel
     {
-        // Use validation attributes (e.g., [Required], [EmailAddress]) in a real app
-        public string Email { get; set; }
-        public string Password { get; set; }
+        [Required(ErrorMessage = "O email é obrigatório.")]
+        [EmailAddress(ErrorMessage = "Formato de email inválido.")]
+        public string Email { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "A senha é obrigatória.")]
+        public string Password { get; set; } = string.Empty;
     }
 }

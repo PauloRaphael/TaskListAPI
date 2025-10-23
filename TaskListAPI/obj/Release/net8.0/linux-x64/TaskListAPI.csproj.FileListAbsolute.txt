@@ -136,3 +136,8 @@ C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Releas
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\TaskListAPI.pdb
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\TaskListAPI.genruntimeconfig.cache
 C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\obj\Release\net8.0\linux-x64\ref\TaskListAPI.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Logging.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\bin\Release\net8.0\linux-x64\Microsoft.IdentityModel.Tokens.dll
+C:\Users\paulo\OneDrive\Desktop\Code_stuff\C#\TaskListAPI\TaskListAPI\bin\Release\net8.0\linux-x64\System.IdentityModel.Tokens.Jwt.dll
