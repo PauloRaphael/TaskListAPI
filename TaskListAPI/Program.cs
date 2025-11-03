@@ -29,6 +29,17 @@ builder.Services.AddScoped<IGenericRepository<LoginSessao>, GenericRepository<Lo
 // 3. Registrar o Serviço de Autenticação (Correção para o erro anterior)
 builder.Services.AddScoped<IAuthService, AuthService>();
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: "AllowAllOrigins", // You can name this anything
+        policy =>
+        {
+            policy.AllowAnyOrigin() // Allows requests from any domain/origin
+                  .AllowAnyHeader()  // Allows any type of request header
+                  .AllowAnyMethod(); // Allows any HTTP method (GET, POST, PUT, DELETE, etc.)
+        });
+});
+
 var app = builder.Build();
 
 
@@ -36,6 +47,8 @@ var app = builder.Build();
     app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
+
+app.UseCors("AllowAllOrigins");
 
 // Adicionar Autenticação e Autorização na ordem correta
 app.UseAuthentication(); // Adicione se estiver implementando autenticação
